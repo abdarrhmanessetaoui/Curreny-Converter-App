@@ -1,0 +1,27 @@
+name: Auto Commit and Push
+
+on:
+  schedule:
+    - cron: '*/1 * * * *' # كل دقيقة
+  push:
+    branches:
+      - main
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Auto commit changes
+        run: |
+          git add .
+          git commit -m "Auto commit changes from workflow" || echo "No changes to commit"
+          git push origin main
