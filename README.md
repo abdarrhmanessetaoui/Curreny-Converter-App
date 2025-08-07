@@ -2,7 +2,7 @@
 
 ## 👀 Preview
 
-![Currency Converter Preview](https://your-image-link-here.com/pov.PNG)
+![Currency Converter Preview](pov.PNG)
 ---
 
 ## 🚀 Overview
@@ -28,6 +28,7 @@ Perfect for users who want to track exchange rates and calculate conversions acc
 1. Clone the repository:  
    ```bash
    git clone https://github.com/abdarrhmanessetaoui/Curreny-Converter-App.git
+
 
 
 
