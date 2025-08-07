@@ -3,6 +3,12 @@ const fromCurrency = document.getElementById("from-currency");
 const toCurrency = document.getElementById("to-currency");
 const amountInput = document.getElementById("amount");
 const resultDiv = document.getElementById("result");
+const toggleBtn = document.getElementById('mode-toggle');
+
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+});
+
 
 window.addEventListener("load", fetchCurrencies);
 
