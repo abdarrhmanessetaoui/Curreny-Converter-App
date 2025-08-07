@@ -2,7 +2,7 @@ name: Auto Commit and Push
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # كل دقيقة
+    - cron: '*/1 * * * *'
   push:
     branches:
       - main
