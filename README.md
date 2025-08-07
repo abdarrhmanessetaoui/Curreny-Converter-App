@@ -5,6 +5,13 @@
 ![Currency Converter Preview](pov.PNG)
 ---
 
+## 🌐 Live Demo
+
+Check out the live demo of the app here:  
+👉 [https://abdarrhmanessetaoui.github.io/Curreny-Converter-App/](https://abdarrhmanessetaoui.github.io/Curreny-Converter-App/)
+
+---
+
 ## 🚀 Overview
 
 A fast and efficient currency converter app that lets you easily convert between different currencies in seconds.  
@@ -28,6 +35,7 @@ Perfect for users who want to track exchange rates and calculate conversions acc
 1. Clone the repository:  
    ```bash
    git clone https://github.com/abdarrhmanessetaoui/Curreny-Converter-App.git
+
 
 
 
